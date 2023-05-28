@@ -4,8 +4,7 @@ AFRAME.registerComponent("base", {
     height: { type: "number", default: 3 }
   },
 
-  init: function() {
-    // Do something when component first attached.
+  init: function() 
     this.el.setAttribute("geometry", {
       primitive: "cylinder",
       radius: this.data.radius,
